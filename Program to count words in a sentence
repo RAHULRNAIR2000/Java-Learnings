@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Program_to_count_words {
+    public static void main(String[] args) {
+
+        System.out.println("Enter a sentence:");
+        Scanner input = new Scanner(System.in);
+        String sentence = input.nextLine();
+
+        System.out.println("Enter a word:");
+        String word = input.next();
+
+        int count = countWords(sentence, word);
+        System.out.println("The word '" + word + "' appears " + count + " times in the sentence.");
+
+        input.close();
+
+    }
+    private static int countWords(String sentence, String word) {
+        String[] wordArray = sentence.split("\\s+|\\.|,|;|\\?|!");
+
+        int count = 0;
+        for (String words : wordArray) {
+            String cleanedWord = words.replaceAll("^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$", "");
+
+            if (words.equalsIgnoreCase(word)) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
