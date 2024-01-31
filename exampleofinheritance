@@ -1,0 +1,28 @@
+ class Car {
+
+
+    String CarName;
+
+    public Car(String carName) {
+        this.CarName = carName;
+    }
+
+    public  void moving()
+    {
+        System.out.println("the" + CarName + "is moving");
+    }
+
+
+}
+class Ford extends Car{
+    public Ford(String carName) {
+        super(carName);
+    }
+
+    public static void main(String[] args) {
+
+        Ford Carmodel = new Ford("benz");
+        Carmodel.moving();
+    }
+};
+
