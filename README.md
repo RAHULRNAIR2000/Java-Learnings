@@ -14,5 +14,15 @@ Learning Basics of Java
      9. Oveloading/overriding
      
 # Concepts of object-oriented programming in Java
+
+     1. Class, objects
+     2. Constructors
+     3. Packages
+     4. Acess modifiers
+     5. Inheritance, Types of inheritance
+     6. Polymorphism
+     7. Abstraction/Abstract Methods
+     8. Interface
+     
      
      
