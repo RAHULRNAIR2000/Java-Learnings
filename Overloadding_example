@@ -1,0 +1,27 @@
+public class Overloadding {
+    public static void main(String[] args) {
+     func(12);
+     func("rahul");
+
+     int ans = sum(3,4);
+        System.out.println(ans);
+     int ans1 = sum(29,39,78);
+        System.out.println(ans1);
+
+    }
+
+    static void func(int a){
+        System.out.println(a);
+    }
+
+    static void func(String name){
+        System.out.println(name);
+    }
+    static int sum(int a,int b,int c) {
+        return a+b+c;
+    }
+    static int sum(int a,int b) {
+        return a+b;
+    }
+}
+//function overloading happens at compile time
