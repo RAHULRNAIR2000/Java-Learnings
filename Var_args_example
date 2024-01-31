@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+public class Varargs {
+    public static void main(String[] args) {
+        System.out.println("enter the numbers to be added");
+        func(1,2,3,4,5,64,3,4,3,2);
+        multiple(1,2,2,3,3,344);
+
+    }
+     static void func(int...v){
+         System.out.println(Arrays.toString(v));
+    }
+    static void multiple(int a,int b,int ...v){
+        System.out.println(a + " " +b+" "+Arrays.toString(v));
+
+
+    }
+}
