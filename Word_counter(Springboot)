@@ -1,0 +1,78 @@
+//controller code given below
+
+
+
+
+package com.example.demo;
+
+
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class MyController {
+
+private int count;
+
+
+    @PostMapping("/api/save")
+    public String saveData(@RequestBody Entity data){
+        String sentence = data.getSentence();
+        String word =data.getWord();
+
+        count = countWords(sentence,word);
+
+        return "data entered successfully";
+    }
+    public static int countWords(String sentence,String word)
+    {
+        String[] wordArray = sentence.split("\\s+|\\.|,|;|\\?|!");
+        int count = 0;
+
+        for (String words : wordArray) {
+            String cleanedWord = words.replaceAll("^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$", "");
+
+            if (words.equalsIgnoreCase(word)) {
+                count++;
+            }
+        }
+
+        return count;
+
+
+    }
+
+    @GetMapping("/api/show")
+    public int findData(){
+        return count;
+    }
+}
+
+
+
+
+
+//Modal code is given below
+
+
+package com.example.demo;
+
+public class Entity {
+    private String word;
+    private String sentence;
+
+    public String getSentence() {
+        return sentence;
+    }
+
+    public void setSentence(String sentence) {
+        this.sentence = sentence;
+    }
+
+    public String getWord() {
+        return word;
+    }
+
+    public void setWord(String word) {
+        this.word = word;
+    }
+}
