@@ -24,5 +24,11 @@ Learning Basics of Java
      7. Abstraction/Abstract Methods
      8. Interface
      
-     
-     
+
+# Basics of Spring-boot
+     1. Displaying a string
+     2. Passing data through the path variable
+     3. Finding the sum of numbers received from the path variable and returning it
+     4. getting JSON data and displaying it using a GET request
+     5. Carrying out operations on data in JSON format
+     6. Finding the number of occurrence of a particular word in a sentence both are passed as JSON data and returning the count
