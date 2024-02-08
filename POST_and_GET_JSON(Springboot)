@@ -1,0 +1,58 @@
+///controlller code is given below
+
+
+
+package com.example.demo;
+
+
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class MyController {
+
+private Entity Lastdata;
+
+
+    @PostMapping("/api/save")
+    public String saveData(@RequestBody Entity data){
+
+        data.setInfo("bye world");
+        data.setValue("this is your code");
+        Lastdata = data;
+        return "data entered successfully";
+    }
+    @GetMapping("/api/show")
+    public Entity findData(){
+        return Lastdata;
+    }
+}
+
+
+
+
+///modal code is given below
+
+
+package com.example.demo;
+
+public class Entity {
+    private String value;
+    private String info;
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+}
+
