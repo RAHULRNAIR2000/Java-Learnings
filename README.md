@@ -32,4 +32,6 @@ Learning Basics of Java
      4. getting JSON data and displaying it using a GET request
      5. Carrying out operations on data in JSON format
      6. Finding the number of occurrences of a particular word in a sentence both are passed as JSON data and returning the count
-     7. Accepting a Array of JSON data and displaying it
+     7. Accepting an Array of JSON data and displaying it
+     8. Learned how the data flow works inside Springboot
+     9. Learned the need of 4 layers in Springboot
