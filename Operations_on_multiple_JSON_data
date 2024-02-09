@@ -1,0 +1,61 @@
+// code of controller layer given below
+
+package com.example.demo;
+
+
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@RestController
+public class MyController {
+
+    private List<Entity> dataList = new ArrayList<>();
+
+
+    @PostMapping("/api/save")
+    public String saveData(@RequestBody List<Entity> data){
+        dataList.addAll(data); // Add the received data to the list
+        return "data entered successfully";
+
+    }
+
+    @GetMapping("/api/show")
+    public List<Entity> findData(){
+        return dataList;
+    }
+}
+
+
+// code of Modal is given below
+
+
+package com.example.demo;
+
+public class Entity {
+
+    private String name;
+    private int age;
+
+    public Entity(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
