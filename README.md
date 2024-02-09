@@ -31,4 +31,5 @@ Learning Basics of Java
      3. Finding the sum of numbers received from the path variable and returning it
      4. getting JSON data and displaying it using a GET request
      5. Carrying out operations on data in JSON format
-     6. Finding the number of occurrence of a particular word in a sentence both are passed as JSON data and returning the count
+     6. Finding the number of occurrences of a particular word in a sentence both are passed as JSON data and returning the count
+     7. Accepting a Array of JSON data and displaying it
