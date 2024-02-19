@@ -36,3 +36,17 @@ Learning Basics of Java
      8. Learned how the data flow works inside Springboot
      9. Learned the need for 4 layers in Springboot
      10. Learned to connect MySQL database with spring-boot application
+
+# Projects Built
+
+     1. Employee Management System 
+                > 
+                >
+                >
+                >
+     2. Blog Posting Website    
+                > Tech stacks used: Spirngboot, React 
+                > Performed CREATE and READ operations using Springboot layer structure
+                > Used Mysql database for storing and maintaining data 
+                > Used POSTMAN to check the working of Endpoints (both path variable and request body)
+                > Used Axios Library to make HTTP request
