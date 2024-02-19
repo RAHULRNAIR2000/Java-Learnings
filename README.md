@@ -40,13 +40,20 @@ Learning Basics of Java
 # Projects Built
 
      1. Employee Management System 
-                > 
-                >
-                >
-                >
+                > Performed CREATE READ, UPDATE, AND DELETE operations using Springboot layer structure
+                > Used Mysql database for storing and maintaining data 
+                > Used functions from the repository in the service layer to handle Image files 
+                > Used Axios Library to make HTTP request
+                > Used POSTMAN to check the working of Endpoints (both path variable and request body)
+                > Used Bootstrap for styling 
+                > Used downloadjs library to give download options to the webpage
+
      2. Blog Posting Website    
                 > Tech stacks used: Spirngboot, React 
                 > Performed CREATE and READ operations using Springboot layer structure
                 > Used Mysql database for storing and maintaining data 
                 > Used POSTMAN to check the working of Endpoints (both path variable and request body)
                 > Used Axios Library to make HTTP request
+                > Used external Swiper libraries to implement swiping Operations
+                > Used Forms to get data from the users
+                > Used material UI for styling
