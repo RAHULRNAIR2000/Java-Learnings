@@ -23,6 +23,8 @@ Learning Basics of Java
      6. Polymorphism
      7. Abstraction/Abstract Methods
      8. Interface
+     9. Enums
+     10. Vector
      
 
 # Basics of Spring-boot
