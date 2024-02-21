@@ -25,6 +25,7 @@ Learning Basics of Java
      8. Interface
      9. Enums
      10. Vector
+     11.Created custom LinkedList in java
      
 
 # Basics of Spring-boot
