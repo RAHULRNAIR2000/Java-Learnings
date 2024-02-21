@@ -1,0 +1,73 @@
+//Main function
+
+
+
+public class Main {
+    public static void main(String[] args) {
+
+Linkdlist list = new Linkdlist();
+list.insertFirst(20);
+        list.insertFirst(50);
+        list.insertFirst(80);
+        list.insertFirst(30);
+        list.insertFirst(10);
+        list.display();
+        
+    }
+}
+
+
+
+
+
+// Linkdlist Class
+
+
+
+
+
+import java.util.LinkedList;
+
+public class Linkdlist {
+
+    private Node head;
+    private Node tail;
+    private int size;
+
+    public Linkdlist() {
+        this.size = 0;
+    }
+
+    public void insertFirst(int val){
+           Node node = new Node(val);
+           node.next =head;
+           head = node;
+
+           if (tail == null){
+               tail = head;
+           }
+           size +=1;
+    }
+    public void display(){
+        Node temp =head;
+        while (temp != null){
+            System.out.print(temp.value+"->");
+            temp = temp.next;
+        }
+        System.out.print("end");
+    }
+
+    private class Node{
+      private int value;
+      private Node next;
+
+      public Node(int value) {
+          this.value = value;
+      }
+
+      public Node(Node next, int value) {
+          this.next = next;
+          this.value = value;
+      }
+  }
+}
