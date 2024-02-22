@@ -62,10 +62,7 @@ Learning Basics of Java
                 > Used material UI for styling
 
 
-# RoadMap  
 
-
-[java.pdf](https://github.com/RAHULRNAIR2000/Java-Learnings/files/14373474/java.pdf)
 
 
 
