@@ -60,3 +60,13 @@ Learning Basics of Java
                 > Used external Swiper libraries to implement swiping Operations
                 > Used Forms to get data from the users
                 > Used material UI for styling
+
+
+# RoadMap  
+
+
+[java.pdf](https://github.com/RAHULRNAIR2000/Java-Learnings/files/14373474/java.pdf)
+
+
+
+
