@@ -25,10 +25,13 @@ Learning Basics of Java
      8. Interface
      9. Enums
      10. Vector
-     11.Created custom LinkedList in java
+     11. Created custom LinkedList in Java
+     12.Doubly Linked List
+     13.File handling in java
      
 
 # Basics of Spring-boot
+
      1. Displaying a string
      2. Passing data through the path variable
      3. Finding the sum of numbers received from the path variable and returning it
