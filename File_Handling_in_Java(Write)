@@ -1,0 +1,27 @@
+import java.io.FileReader;
+import java.io.IOException;
+
+
+public class Main {
+    public static void main(String[] args) {
+
+
+try (BufferedReader br = new BufferedReader(new FileReader("/home/rahulrnair/Trainings/Java-trainings/src/note.txt"))) {
+    while (br.ready()) {
+        System.out.println(br.readLine());
+    }
+}catch (IOException e){
+    System.out.println(e.getMessage());
+
+}
+
+
+try(FileWriter fw = new FileWriter("/home/rahulrnair/Trainings/Java-trainings/src/note.txt",true)){
+
+    fw.write("This should be appended");
+}catch (IOException e) {
+    System.out.println(e.getMessage());
+}
+
+}
+}
