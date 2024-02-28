@@ -1,0 +1,22 @@
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int x =5;
+        float y=3.14f;
+
+//Autoboxing
+        Integer intObj =x;
+        Float floatobj =y;
+
+        System.out.println(intObj);
+        System.out.println(floatobj);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(intObj.compareTo(5));
+
+}
+}
