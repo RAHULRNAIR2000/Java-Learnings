@@ -1,0 +1,22 @@
+import java.io.FileReader;
+import java.io.IOException;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class Main {
+    public static void main(String[] args) {
+        Stack<Integer> numbers= new Stack<>();
+        numbers.push(485);
+        numbers.push(550);
+        numbers.push(495);
+        numbers.push(475);
+        numbers.push(245);
+        System.out.println(numbers);
+        System.out.println(numbers.search(475));
+        System.out.println(numbers.pop());
+
+
+
+}
+}
