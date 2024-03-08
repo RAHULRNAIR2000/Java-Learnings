@@ -1,0 +1,45 @@
+import java.util.*;
+
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+        Set <String> set = new HashSet<>();
+        set.add("rahul");
+        set.add("ramesh");
+        set.add("sidhu");
+        set.add("kunal");
+        set.add("ram");
+
+        System.out.println(set);
+
+        for( String names:set){
+            System.out.println(names);
+        }
+
+
+        Set newset = new HashSet();
+        for( int i=30; i>=0; i--){
+            newset.add("A"+i);
+        }
+        System.out.println(newset);
+
+        Set newset1 = new LinkedHashSet();
+        for( int i=30; i>=0; i--){
+            newset1.add("A"+i);
+        }
+        System.out.println(newset1);
+
+        Set<String> newset2 = new TreeSet();
+        for( int i=30; i>=0; i--){
+            newset2.add("A"+i);
+        }
+
+        for(String x:newset2 ){
+            System.out.println(x);
+        }
+
+    }
+}
