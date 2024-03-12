@@ -64,6 +64,12 @@ Learning Basics of Java
                 > Used external Swiper libraries to implement swiping Operations
                 > Used Forms to get data from the users
                 > Used material UI for styling
+                
+     3. Movie Searching app
+                > Tech stacks used: React 
+                > Used Ombd API to fetch JSON data
+                > Used react hooks like useState and useEffect
+                > Deployed using Netlify via Github continuous development 
 
 
 
