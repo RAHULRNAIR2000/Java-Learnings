@@ -1,0 +1,31 @@
+
+import static java.lang.Thread.sleep;
+
+
+class Mycounter{
+    private int threadNo;
+
+    public Mycounter(int threadNo) {
+        this.threadNo = threadNo;
+    }
+
+    public void countMe() throws InterruptedException {
+        for (int i=0;i<10;i++){
+            sleep(500);
+            System.out.println("Thread no "+threadNo+"and iteraion no:"+i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) throws InterruptedException {
+
+        Mycounter counter1 = new Mycounter(1);
+        Mycounter counter2 = new Mycounter(2);
+        counter1.countMe();
+        System.out.println("*******************");
+        counter2.countMe();
+
+
+    }
+}
