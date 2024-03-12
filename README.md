@@ -26,9 +26,10 @@ Learning Basics of Java
      9. Enums
      10. Vector
      11. Created custom LinkedList in Java
-     12.Doubly Linked List
-     13.File handling in java
-     14.Stack in java
+     12. Doubly Linked List
+     13. File handling in Java
+     14. Stack in Java
+     15.Threads in Java
      
 
 # Basics of Spring-boot
