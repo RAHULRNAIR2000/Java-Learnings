@@ -72,6 +72,9 @@ Learning Basics of Java
                 > Used react hooks like useState and useEffect
                 > Deployed using Netlify via Github continuous development 
 
+     4. 3d portfolio
+     
+
 
 
 # Certifications
