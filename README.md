@@ -74,6 +74,8 @@ Learning Basics of Java
                 > Deployed using Netlify via Github continuous development 
 
      4. 3d portfolio
+          > Learned Three js
+          > Learned tailwind css
      
 
 
