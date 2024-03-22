@@ -31,6 +31,7 @@ Learning Basics of Java
      14. Stack in Java
      15. Threads in Java
      16. Essentials for react
+     17.Selenium Basics
      
 
 # Basics of Spring-boot
