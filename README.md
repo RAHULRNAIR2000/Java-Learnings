@@ -78,6 +78,8 @@ Learning Basics of Java
      4. 3d portfolio
           > Learned Three js
           > Learned tailwind css
+
+     5.Web Scraping     
      
 
 
