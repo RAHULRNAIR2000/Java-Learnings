@@ -79,8 +79,8 @@ Learning Basics of Java
           > Learned Three js
           > Learned tailwind css
 
-     5.Web Scraping     
-     
+     5 .Web Scraping project     
+      
 
 
 
