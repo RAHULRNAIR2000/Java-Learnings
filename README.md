@@ -5,7 +5,7 @@ Learning Basics of Java
 
      1. JVM and JDK
      2. Structure of a Java file
-     3. i/o in Java
+     3. i/o in Jav
      4. Datatypes
      5. Conditions/Loops/Switch
      6. Functions
