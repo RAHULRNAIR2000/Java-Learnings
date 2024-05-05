@@ -32,7 +32,8 @@ Learning Basics of Java
      15. Threads in Java
      16. Essentials for react
      17. Selenium Basics
-     18.HTMLUnit
+     18. HTMLUnit
+     
      
 
 # Basics of Spring-boot
@@ -79,7 +80,7 @@ Learning Basics of Java
           > Learned Three js
           > Learned tailwind css
 
-     5 .Web Scraping project     
+     5 . Web Scraping project (PriceWise)    
       
 
 
