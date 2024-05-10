@@ -82,7 +82,7 @@ Learning Basics of Java
 
      5 . Web Scraping project (PriceWise)   
           > Learned Nodejs
-          
+          > Used bright data
           
         
       
