@@ -97,3 +97,13 @@ Learning Basics of Java
 ![a4224fa72a89942720d5790e55bb228c083df0d68ce12af26adccc354db98b44](https://github.com/RAHULRNAIR2000/Java-Learnings/assets/83546515/b9402a3c-7a77-4fee-a344-1deccc3ef61b)
 
 
+
+ 2. Basics of Java -Coding Ninja
+
+    ![certi_image5998634fec3814082d5bad6fcf4018a79de018](https://github.com/RAHULRNAIR2000/Java-Learnings/assets/83546515/e54a9ffb-4443-4d2c-a784-2a2bd79ab3d5)
+
+
+ 
+
+
+ [certificate-599863-d69d41efe6c1cc47636d72e8b82c29f3.pdf](https://github.com/RAHULRNAIR2000/Java-Learnings/files/15298853/certificate-599863-d69d41efe6c1cc47636d72e8b82c29f3.pdf)
