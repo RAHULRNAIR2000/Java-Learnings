@@ -4,6 +4,9 @@ Learning Basics of Java
 # Basics of Java
 
      1. JVM and JDK
+     
+     Putting it all together: Imagine you're a developer creating a Java application. You use the JDK (toolbox) to write and compile your code. Once your application is compiled into bytecode, it can be executed on any system with the JRE (reading lamp and chair), which includes the JVM (translator) to run your application smoothly across different platforms.
+     
      2. Structure of a Java file
      3. i/o in Java
      4. Datatypes
