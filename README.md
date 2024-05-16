@@ -30,6 +30,25 @@ Learning Basics of Java
      3. Packages
      4. Acess modifiers
      5. Inheritance, Types of inheritance
+     
+          Inheritance is a mechanism in Java where a new class is derived from
+          an existing class (superclass). The derived class inherits the members (fields and methods) of the superclass. 
+          In real life, think of inheritance as a parent passing on genetic traits to their child.
+          The child inherits characteristics from the parent, like eye color or height.
+          Use the keyword "extends" to use the methods and variables of the parent class.
+
+          Types
+
+          Single inheritance
+          Multilevel inheritance
+          Hierarchical inheritance
+          Hybrid inheritance
+
+          Multiple inheritance is not in java (for that we use interfaces)
+
+          
+          
+          
      6. Polymorphism
      
      7. Abstraction/Abstract Methods
