@@ -42,9 +42,9 @@ Learning Basics of Java
           Single inheritance
           Multilevel inheritance
           Hierarchical inheritance
-          Hybrid inheritance
-
-          Multiple inheritance is not in java (for that we use interfaces)
+          
+          Hybrid inheritance - Not in Java
+          Multiple inheritance is not in Java (for that we use interfaces)
 
           
           
