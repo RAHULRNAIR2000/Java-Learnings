@@ -44,6 +44,10 @@ Learning Basics of Java
 
      
      8. Interface
+     
+          interface is a blueprint of a class
+          It cannot have fields (variables) or constructors.
+
      9. Enums
      10. Vector
      11. Created custom LinkedList in Java
