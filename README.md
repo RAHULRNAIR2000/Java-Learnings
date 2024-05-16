@@ -31,7 +31,18 @@ Learning Basics of Java
      4. Acess modifiers
      5. Inheritance, Types of inheritance
      6. Polymorphism
+     
      7. Abstraction/Abstract Methods
+     
+          Abstraction is the concept of hiding the implementation details and
+          showing only the essential features of an object. In real life, think 
+          of a car dashboard. When you drive a car, you only interact with the
+          dashboard (like a speedometer or fuel gauge), not the internal combustion engine
+          or the complex mechanics. Similarly, in programming, abstraction allows you 
+          to focus on what an object does rather than how it does it
+
+
+     
      8. Interface
      9. Enums
      10. Vector
