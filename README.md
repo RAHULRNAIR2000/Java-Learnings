@@ -50,6 +50,12 @@ Learning Basics of Java
           
           
      6. Polymorphism
+
+          Polymorphism is the ability of an object to take on multiple forms. 
+          In Java, it can be achieved through method overloading and
+          method overriding. In real life, think of a person 
+          who can have multiple roles - a teacher during the day,
+          a parent in the evening, and a musician during weekends.
      
      7. Abstraction/Abstract Methods
      
