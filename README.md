@@ -21,7 +21,15 @@ Learning Basics of Java
      6. Functions
      7. Array/ArrayList
      8. Var args
-     9. Oveloading/overriding
+     9. Overloading
+     
+     10. overriding
+     
+         Method overriding occurs when a subclass provides a specific 
+         implementation of a method that is already provided by its 
+     superclass. In real life, think of a parent's rule being modified by 
+     the child. For instance, a parent may have a rule to come home by 10 
+         PM, but the child overrides it to come home by 11 PM.
      
 # Concepts of object-oriented programming in Java
 
