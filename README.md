@@ -88,8 +88,30 @@ Learning Basics of Java
      
           1. List
           
-          List is an interface in Java, which means it cannot be instantiated directly. It represents an ordered collection, also known as a sequence. Lists can contain 
+           List is an interface in Java, which means it cannot be instantiated directly. It represents an ordered collection, also known as a sequence. Lists can contain 
            duplicate elements and preserve the order of insertion.
+
+           Common Implementations of List:
+
+            ArrayList
+
+            ArrayList is a resizable array implementation of the List interface. It provides more flexibility compared to a standard array by allowing dynamic resizing.
+            Key Points:
+
+            Implements the List interface.
+            Allows dynamic resizing.
+            Provides fast access to elements (random access)
+
+            
+            LinkedList
+            
+            A LinkedList consists of nodes where each node contains a reference to the previous and next node.
+            This structure allows for efficient insertions and deletions as elements are not shifted when modified
+            Access Time: Slower compared to ArrayList because it requires traversal from the head (or tail) to the desired index.
+
+            ArrayList: Preferred when frequent access to elements by an index is required, and insertion/deletion operations are less frequent or occur at the end.
+            LinkedList: Preferred when frequent insertions and deletions are required, especially at the beginning or middle of the list.
+            
 
      11. Created custom LinkedList in Java
      12. Doubly Linked List
