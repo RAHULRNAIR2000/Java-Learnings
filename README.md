@@ -110,7 +110,17 @@ Learning Basics of Java
             Access Time: Slower compared to ArrayList because it requires traversal from the head (or tail) to the desired index.
 
             ArrayList: Preferred when frequent access to elements by an index is required, and insertion/deletion operations are less frequent or occur at the end.
-            LinkedList: Preferred when frequent insertions and deletions are required, especially at the beginning or middle of the list.
+            LinkedList: Preferred when frequent insertions and deletions are required, especially at the beginning or middle of the list
+
+          2.HashSet
+          
+          HashSet is a collection that implements the Set interface. It uses a hash table for storage, which means it does not guarantee any specific order of elements. 
+          HashSet does not allow duplicate elements.
+
+            Key Points:
+            Implements the Set interface.
+            Does not allow duplicate elements.
+            Provides constant-time performance for basic operations like add, remove, and contains.
             
 
      11. Created custom LinkedList in Java
