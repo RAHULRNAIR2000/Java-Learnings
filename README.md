@@ -121,6 +121,8 @@ Learning Basics of Java
             Implements the Set interface.
             Does not allow duplicate elements.
             Provides constant-time performance for basic operations like add, remove, and contains.
+
+            
             
 
      11. Created custom LinkedList in Java
@@ -128,6 +130,18 @@ Learning Basics of Java
      13. File handling in Java
      14. Stack in Java
      15. Threads in Java
+          Java Threading
+          Java threading allows you to execute multiple threads (small units of a process) simultaneously, enabling multitasking and efficient use of resources.
+
+            Creating Threads
+            There are two main ways to create a thread in Java:
+
+                   Extending Thread Class
+                   Implementing Runnable Interface
+
+
+
+                   
      16. Essentials for react
      17. Selenium Basics
      18. HTMLUnit
