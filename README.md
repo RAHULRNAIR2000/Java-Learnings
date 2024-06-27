@@ -83,6 +83,14 @@ Learning Basics of Java
 
      9. Enums
      10. Vector
+
+     Collections in java
+     
+          1. List
+          
+          List is an interface in Java, which means it cannot be instantiated directly. It represents an ordered collection, also known as a sequence. Lists can contain 
+           duplicate elements and preserve the order of insertion.
+
      11. Created custom LinkedList in Java
      12. Doubly Linked List
      13. File handling in Java
