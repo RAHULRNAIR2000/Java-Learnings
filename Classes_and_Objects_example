@@ -1,0 +1,33 @@
+// Define the class
+
+class Car {
+    // Fields (attributes)
+    String color;
+    String model;
+    int year;
+
+    // Constructor
+    Car(String color, String model, int year) {
+        this.color = color;
+        this.model = model;
+        this.year = year;
+    }
+
+    // Method (behavior)
+    void displayDetails() {
+        System.out.println("Car model: " + model + ", Color: " + color + ", Year: " + year);
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        // Create an object of the Car class
+        Car car1 = new Car("Red", "Toyota", 2020);
+        Car car2 = new Car("Blue", "Honda", 2018);
+
+        // Use the object's method
+        car1.displayDetails(); // Output: Car model: Toyota, Color: Red, Year: 2020
+        car2.displayDetails(); // Output: Car model: Honda, Color: Blue, Year: 2018
+    }
+}
