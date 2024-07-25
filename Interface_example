@@ -1,0 +1,21 @@
+interface RemoteControl {
+    void powerOn();
+    void powerOff();
+    void volumeUp();
+    void volumeDown();
+}
+
+class SonyTV implements RemoteControl {
+    public void powerOn() {
+        System.out.println("Sony TV is powered on");
+    }
+    // Other methods implementation
+}
+
+public class Main {
+    public static void main(String[] args) {
+        RemoteControl remote = new SonyTV();
+        remote.powerOn();
+        // Other remote control operations
+    }
+}
