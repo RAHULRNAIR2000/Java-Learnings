@@ -1,0 +1,17 @@
+class CoffeeShop {
+    void orderCoffee() {
+        System.out.println("Ordered black coffee");
+    }
+
+    void orderCoffee(String options) {
+        System.out.println("Ordered coffee with " + options);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        CoffeeShop shop = new CoffeeShop();
+        shop.orderCoffee(); // Output: Ordered black coffee
+        shop.orderCoffee("milk and sugar"); // Output: Ordered coffee with milk and sugar
+    }
+}
