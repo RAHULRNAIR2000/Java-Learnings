@@ -1,0 +1,25 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+import static java.lang.System.in;
+
+public class InputTryDemo {
+    public static void main(String[] args) {
+        Scanner in = null;
+        try{
+        int s;
+        System.out.println("enter a String");
+        in =new Scanner(System.in);
+        s=in.nextInt();
+
+
+            System.out.println("Hellow " + s);
+        }catch (Exception e){
+            System.out.println(e);
+        }finally {
+            in.close();
+        }
+
+
+    }
+}
