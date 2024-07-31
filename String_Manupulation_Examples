@@ -1,0 +1,31 @@
+public class String_Manupulation_Examples {
+    public static void main(String[] args) {
+        String original = "   Hello, Java World!   ";
+
+        // Trim whitespace
+        String trimmed = original.trim();
+        System.out.println("Trimmed: " + trimmed);
+
+        // Convert to lowercase
+        String lower = trimmed.toLowerCase();
+        System.out.println("Lowercase: " + lower);
+
+        // Extract substring
+        String substring = trimmed.substring(7, 11);
+        System.out.println("Substring: " + substring);
+
+        // Replace characters
+        String replaced = trimmed.replace("Java", "Kotlin");
+        System.out.println("Replaced: " + replaced);
+
+        // Split string
+        String[] words = trimmed.split(" ");
+        System.out.println("Words: " + String.join(", ", words));
+
+        // Using StringBuilder for concatenation
+        StringBuilder sb = new StringBuilder("Hello");
+        sb.append(", ").append("World!");
+        System.out.println("StringBuilder: " + sb.toString());
+    }
+    }
+
