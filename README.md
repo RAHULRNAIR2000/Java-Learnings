@@ -225,3 +225,6 @@ Learning Basics of Java
 
 [java_basic certificate.pdf](https://github.com/user-attachments/files/16830253/java_basic.certificate.pdf)
 
+![image](https://github.com/user-attachments/assets/a17f1522-381b-4d25-a44b-34197d18a45d)
+
+
