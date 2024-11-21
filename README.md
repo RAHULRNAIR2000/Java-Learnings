@@ -199,8 +199,6 @@ Learning Basics of Java
         
       
 
-
-
 # Certifications
 
   1.Java course -Mastering the Fundamentals
