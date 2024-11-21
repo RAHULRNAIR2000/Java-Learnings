@@ -1,0 +1,57 @@
+package org.example;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+import java.time.Duration;
+
+public class locatorsDiffbrowser {
+    public static void main(String[] args) throws InterruptedException {
+        // Browser type as a configurable variable
+        String browser = "chrome"; // Change to "chrome", "firefox", or "safari"
+
+        // WebDriver declaration
+        WebDriver driver;
+
+        // Browser setup
+        switch (browser.toLowerCase()) {
+            case "chrome":
+                driver = new ChromeDriver(); // No need to set system properties
+                break;
+
+            case "firefox":
+                driver = new FirefoxDriver(); // Automatically manages geckodriver
+                break;
+
+            case "edge":
+                driver = new EdgeDriver(); // Automatically manages msedgedriver
+                break;
+
+            case "safari":
+                driver = new SafariDriver(); // SafariDriver is pre-installed on macOS
+                break;
+
+            default:
+                throw new IllegalArgumentException("Invalid browser: " + browser);
+        }
+
+        // Maximize the browser window
+        driver.manage().window().maximize();
+
+        // Implicit wait
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        // Open URL
+        driver.get("https://rahulshettyacademy.com/locatorspractice/");
+
+        // Perform your test actions here
+        System.out.println("Title: " + driver.getTitle());
+
+        // Close the browser
+        Thread.sleep(2000);
+        driver.quit();
+    }
+}
