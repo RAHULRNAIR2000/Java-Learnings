@@ -15,6 +15,9 @@ Learning Basics of Java
 
 ![jvm-architecture](https://github.com/user-attachments/assets/d3a442b7-5430-4f2b-8a5f-70fb0191de3b)
 
+- JVM: The "engine" that runs Java programs.
+- JRE: The "runtime environment" containing the JVM and libraries for running Java programs.
+- JDK: The "development toolkit" containing the JRE and tools for writing and compiling Java programs.
 
      2. Structure of a Java file
      3. i/o in Java
