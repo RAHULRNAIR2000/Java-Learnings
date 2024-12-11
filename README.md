@@ -17,7 +17,9 @@ Learning Basics of Java
 
 - JVM: The "engine" that runs Java programs.
 - JRE: The "runtime environment" containing the JVM and libraries for running Java programs.
-- JDK: The "development toolkit" containing the JRE and tools for writing and compiling Java programs.
+- JDK: The "development toolkit" containing the JRE and tools for writing and compiling Java programs.  
+
+Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (libraries) needed to cook (run) a Java program.
 
      2. Structure of a Java file
      3. i/o in Java
