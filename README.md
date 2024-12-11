@@ -11,7 +11,9 @@ Learning Basics of Java
      which includes the JVM (translator) to run your application smoothly across different platforms.
 ![image](https://github.com/RAHULRNAIR2000/Java-Learnings/assets/83546515/884e8831-7a31-4b16-80f6-39b307ce4737)
 
+# JVM ARCHITECTURE
 
+![jvm-architecture](https://github.com/user-attachments/assets/d3a442b7-5430-4f2b-8a5f-70fb0191de3b)
 
 
      2. Structure of a Java file
