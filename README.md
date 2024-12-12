@@ -91,7 +91,16 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
           It cannot have fields (variables) or constructors.
           An interface is a fully abstract class (in Java versions before 8).
           It contains only method declarations (by default) and no implementations.
+          
+          ## Key Differences: Abstract Class vs Interface
 
+| Feature         | Abstract Class                              | Interface                                      |
+|-----------------|---------------------------------------------|------------------------------------------------|
+| **Usage**       | Use when sharing code between classes.      | Use for full abstraction (behavior specification). |
+| **Methods**     | Can have abstract and concrete methods.     | Only abstract methods (before Java 8).         |
+| **Constructors**| Can have constructors.                      | Cannot have constructors.                      |
+| **Inheritance** | Single inheritance allowed.                 | Multiple inheritance allowed.                  |
+| **Default Methods** | Available since Java 8.                 | Available since Java 8.     
 
 
      9. Enums
