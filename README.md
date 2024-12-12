@@ -200,6 +200,13 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      9. Learned the need for 4 layers in Springboot
      10. Learned to connect MySQL database with spring-boot application
 
+
+     What is a Bean?
+
+    A bean is an instance of a class that is created, configured, and managed by the Spring container.
+    The Spring container is responsible for the lifecycle of the bean, 
+    such as initialization, dependencies injection, and destruction
+
 # Projects Built
 
      1. Employee Management System 
