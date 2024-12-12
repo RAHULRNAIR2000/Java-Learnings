@@ -79,7 +79,9 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
           of a car dashboard. When you drive a car, you only interact with the
           dashboard (like a speedometer or fuel gauge), not the internal combustion engine
           or the complex mechanics. Similarly, in programming, abstraction allows you 
-          to focus on what an object does rather than how it does it
+          to focus on what an object does rather than how it does it.
+          An abstract class cannot have objects.i should be extended to other class and 
+          create an object of that class.
 
 
      
