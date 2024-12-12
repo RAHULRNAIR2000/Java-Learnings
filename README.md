@@ -89,6 +89,10 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      
           interface is a blueprint of a class
           It cannot have fields (variables) or constructors.
+          An interface is a fully abstract class (in Java versions before 8).
+          It contains only method declarations (by default) and no implementations.
+
+
 
      9. Enums
      10. Vector
