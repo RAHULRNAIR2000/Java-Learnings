@@ -37,6 +37,12 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      superclass. In real life, think of a parent's rule being modified by 
      the child. For instance, a parent may have a rule to come home by 10 
          PM, but the child overrides it to come home by 11 PM.
+
+     11.Lamda functions
+          Lambda functions (or lambdas) in Java were introduced in Java 8.
+          They are a way to define anonymous functions (functions without a name) that
+          can be passed around as arguments or stored in variables. 
+          They are primarily used to simplify functional programming and make code more concise.    
      
 # Concepts of object-oriented programming in Java
 
