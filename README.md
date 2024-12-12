@@ -90,6 +90,11 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
 
      9. Enums
      10. Vector
+     11. Encapsulation
+
+     Encapsulation is one of the fundamental principles of object-oriented programming (OOP) in Java. It refers to the practice of bundling the data (fields/variables) and 
+     methods that operate on that data into a single unit, typically a class, and restricting direct access to some of the object's components. This is achieved using 
+     access modifiers and is often referred to as data-hiding.
 
      Collections in java
      
