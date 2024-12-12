@@ -111,6 +111,12 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      methods that operate on that data into a single unit, typically a class, and restricting direct access to some of the object's components. This is achieved using 
      access modifiers and is often referred to as data-hiding.
 
+     12.Generics
+
+                Generics in Java are a mechanism that allows you to write classes, interfaces, and methods 
+                that can operate on types specified as parameters. 
+                This provides type safety and eliminates the need for casting in many cases
+
      Collections in java
      
           1. List
