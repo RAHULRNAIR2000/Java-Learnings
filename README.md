@@ -184,6 +184,12 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      16. Essentials for react
      17. Selenium Basics
      18. HTMLUnit
+
+     19.Java Streams
+
+        Java Streams, introduced in Java 8, are part of the java.util.stream package
+        and provide a powerful way to process collections of data (like lists, sets, and arrays) 
+        in a functional and declarative style
      
      
 
