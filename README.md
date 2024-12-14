@@ -213,6 +213,18 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
     The Spring container is responsible for the lifecycle of the bean, 
     such as initialization, dependencies injection, and destruction
 
+
+    1.A Stream is a sequence of elements that can be processed one at a time.
+    2.It allows you to perform operations like filtering, mapping, and reducing on data in a pipeline-like manner.
+    3.Streams are not data structures; they work on existing data collections like lists or arrays.
+
+   How to Use Streams
+   Using Streams involves three steps:
+
+   Create a Stream (source).
+   Apply intermediate operations (like filtering or mapping).
+   Apply a terminal operation (like collecting or forEach).
+
 # Projects Built
 
      1. Employee Management System 
