@@ -38,7 +38,7 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      the child. For instance, a parent may have a rule to come home by 10 
          PM, but the child overrides it to come home by 11 PM.
 
-     11.Lamda functions
+     11. Lambda functions
           Lambda functions (or lambdas) in Java were introduced in Java 8.
           They are a way to define anonymous functions (functions without a name) that
           can be passed around as arguments or stored in variables. 
