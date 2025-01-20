@@ -29,7 +29,6 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      7. Array/ArrayList
      8. Var args
      9. Overloading
-     
      10. overriding
      
          Method overriding occurs when a subclass provides a specific 
