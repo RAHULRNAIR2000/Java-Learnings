@@ -45,7 +45,7 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
      
 # Concepts of object-oriented programming in Java
 
-     1. Class, objects,
+     1. Class, objects
      2. Constructors
      3. Packages
      4. Acess modifiers
