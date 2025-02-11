@@ -7,7 +7,7 @@ Learning Basics of Java
      
      Putting it all together: Imagine you are a developer creating a Java application. 
      You use the JDK (toolbox) to write and compile your code. Once your application is 
-     compiled into bytecode, it can be executed on any system with the JRE (reading lamp and chair),
+     compiled into bytecode, it can be executed on any system with the JRE (reading lamp and chair)
      which includes the JVM (translator) to run your application smoothly across different platforms.
 ![image](https://github.com/RAHULRNAIR2000/Java-Learnings/assets/83546515/884e8831-7a31-4b16-80f6-39b307ce4737)
 
