@@ -229,6 +229,20 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
     Java microservices are a set of small, independent applications written in Java that work together to form a larger system. Each microservice has a specific, limited 
     scope and runs in its own process, communicating with other services using lightweight protocols like HTTP or messaging
 
+   ![image](https://github.com/user-attachments/assets/55b1c93b-6566-4c78-ba73-6e3912fdec2b)
+
+  # Communication between different services
+  #  Service Registry
+      It is one central location where we’ll be managing our host and the port number information inside this particular server. This is basically called registration 
+      because all the services whenever they are starting off they are registering themselves with the discovery service and now the discovery service is maintaining all 
+      their information inside a particular map or a list or a database. We called it a Service Registry. Spring Cloud is providing us with Service Discovery and Service 
+      Registry to handle this problem.
+
+ ![image](https://github.com/user-attachments/assets/4604c9fa-4a24-4a8a-8273-e47d2e8cce89)
+     
+
+
+
 # Projects Built
 
      1. Employee Management System 
