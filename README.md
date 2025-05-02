@@ -224,6 +224,11 @@ Think of the JRE as the "kitchen" that contains the stove (JVM) and the tools (l
    Apply intermediate operations (like filtering or mapping).
    Apply a terminal operation (like collecting or forEach).
 
+
+   # Java microservices
+    Java microservices are a set of small, independent applications written in Java that work together to form a larger system. Each microservice has a specific, limited 
+    scope and runs in its own process, communicating with other services using lightweight protocols like HTTP or messaging
+
 # Projects Built
 
      1. Employee Management System 
